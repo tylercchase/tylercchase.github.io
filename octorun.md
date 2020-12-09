@@ -18,11 +18,10 @@ I picked angular because it's what I am most familiar with, but you would be abl
 The backend is written in [express](https://expressjs.com) and uses [passport.js](http://www.passportjs.org/) to do Google OAuth 2.0.
 
 ## MongoDB
-An easy to use NoSQL database. It was my first time using it, and it was an enjoyable experience. I used [mongoose](https://mongoosejs.com/)
+An easy to use NoSQL database. It was my first time using it, and it was an enjoyable experience. I used [mongoose](https://mongoosejs.com/) which allowed me to easily define and manage objects in MongoDB
 ## Passport
 Passport is awesome, in that, it lets you select from a variety of different "strategies" or ways to log in. For this project, I selected the Google Oauth 2.0 strategy, but could easily integrate other platforms to log in with.
 # Manager
 The manager script is written in python and uses flask.
 The manager is using the python [docker SDK](https://docker-py.readthedocs.io/en/stable/) to manage docker containers on the server.
 In the future, I would ideally want to remove the manager-script and rely on something like Kubernetes to keep the client code off of my server. For this project though I decided to use this since I was familiar with python more than Kubernetes, and wasn't sure if it was going to be the right solution.
-
