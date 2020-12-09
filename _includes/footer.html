@@ -22,6 +22,7 @@
 			</form>
 		</section> -->
 		<section class="split">
+			{% if site.email %}
 			<section>
 				<div class="contact-method">
 					<span class="icon alt fa-envelope"></span>
@@ -29,7 +30,7 @@
 					<a href="mailto:tylercchase@gmail.com">{{ site.email }}</a>
 				</div>
 			</section>
-			
+			{% endif %}
 			
 		</section>
 	</div>
