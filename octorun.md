@@ -10,7 +10,7 @@ show_tile: true
 (tl;dr) : A service for running code on the web using angular,express, and docker
 
 
-### Frontend
+# Frontend
 The frontend itself is written in [angular](https://angular.io/) and uses the [monaco editor](https://microsoft.github.io/monaco-editor/) to display the code written by the user. 
 ## Angular
 Angular is a web framework that uses typescript. It lets us 
