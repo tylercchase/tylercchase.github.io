@@ -1,7 +1,7 @@
 # site settings
 title: Tyler Chase
 subtitle:
-email: tylercchase@gmail.com
+email:
 description: A college student who has too much stuff he wants to learn, and not enough hours in a day to do so.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
