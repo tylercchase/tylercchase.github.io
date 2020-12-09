@@ -12,11 +12,10 @@ show_tile: true
 # Frontend
 The frontend itself is written in [angular](https://angular.io/) and uses the [monaco editor](https://microsoft.github.io/monaco-editor/) to display the code written by the user. 
 ## Angular
-I picked angular because it's what I am most familiar with, but you would be able to use any framework or none at all if you want.
+I picked angular because it's what I am most familiar with, but anything would be able to work, like a pure HTML, js website. Angular lets me easily make a single page application, making it so the user does not have to reload the page to go to different views. 
 
 # Backend
-The backend is written in [express](https://expressjs.com) and uses [passport.js](http://www.passportjs.org/) to do Google OAuth 2.0.
-
+The backend is written in [express](https://expressjs.com) and uses [passport.js](http://www.passportjs.org/) to do Google OAuth 2.0 
 ## MongoDB
 An easy to use NoSQL database. It was my first time using it, and it was an enjoyable experience. I used [mongoose](https://mongoosejs.com/) which allowed me to easily define and manage objects in MongoDB
 ## Passport
